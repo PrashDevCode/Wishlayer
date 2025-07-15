@@ -11,16 +11,11 @@ const AboutUsPage = () => {
           </div>
         <div className="text-lg space-y-4">
           <p>
-            Discover Jubilo, your ultimate destination for celebrations in
-            Lucknow. Originating from the culturally vibrant city, we specialize
-            in providing a seamless experience for tourists and travelers with
-            our Airbnb & Studio Concept Roomstay options.
+           Discover Jubilo — your one-stop destination for unforgettable celebrations!
+           Jubilo is a comprehensive celebration and event management platform designed to make special moments seamless and memorable.
           </p>
           <p>
-            Alongside, we offer bespoke services including customized cakes,
-            exquisite decorations, and versatile venues for parties and night
-            clubbing. At Wishlayer, we bring together everything you need to
-            make every celebration memorable, all in one place.
+            The platform integrates Airbnb-inspired and studio-style roomstay options with customized cakes, premium decorations, party planning, and venue booking — bringing every element of a celebration together in one place.
           </p>
         </div>
       </div>
