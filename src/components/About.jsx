@@ -11,7 +11,7 @@ const AboutUsPage = () => {
           </div>
         <div className="text-lg space-y-4">
           <p>
-            Discover Wishlayer, your ultimate destination for celebrations in
+            Discover Jubilo, your ultimate destination for celebrations in
             Lucknow. Originating from the culturally vibrant city, we specialize
             in providing a seamless experience for tourists and travelers with
             our Airbnb & Studio Concept Roomstay options.

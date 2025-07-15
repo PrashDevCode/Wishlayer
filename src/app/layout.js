@@ -9,7 +9,7 @@ import FilterContextProvider from "@/context/FilterContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Wish Layer",
+  title: "Jubilo",
   description: "",
 };
 

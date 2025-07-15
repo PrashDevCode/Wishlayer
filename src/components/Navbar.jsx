@@ -11,10 +11,7 @@ const Navbar = () => {
           <Link href={"/"}>
           <Image className="w-12" src={logo} alt="logo" />
           </Link>
-          <p className="text-[8px] font-black w-fit  flex justify-center ">
-            <span className="  ">WISH </span>
-            <span className="text-red-600  ">LAYER</span>
-          </p>
+          
         </div>
       </div>
       <div>

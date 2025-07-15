@@ -1,6 +1,6 @@
 import React from "react";
 import ImageFooter from "./ImageFooter";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/footer1-Logo.png";
 import Image from "next/image";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -27,18 +27,23 @@ const Footer = () => {
 
         <div className="flex flex-wrap justify-between border-b border-[#183968] px-10 text-gray-300 py-4">
           <div className="w-full md:w-auto space-y-2 mb-4 md:mb-0">
-            <div className="">
-              <Image className="w-14" src={logo} alt="logo" />
-              <p className="text-[8px] pl-1 w-fit font-black flex justify-center">
-                <span className="">WISH</span>
-                <span className="text-red-600">LAYER</span>
+          <div className="flex flex-col items-center md:items-start gap-0">
+              <Image 
+              src={logo} 
+              alt="logo"
+              width={120}  
+              height={120}
+               />
+              <p className="text-[35px] pl-1 w-fit font-black flex justify-center leading-none mt-[-34px]">
+                <span className="">Jubi</span>
+                <span className="text-red-400">Lo</span>
               </p>
             </div>
             <div className="">
               <p className="">Business mail id's</p>
-              <p className="text-gray-400">contactsupport@wishlayer.com</p>
-              <p className="text-gray-400">Career@wishlayer.com</p>
-              <p className="text-gray-400">admin@wishlayer.com</p>
+              <p className="text-gray-400">contactsupport@jubilo.com</p>
+              <p className="text-gray-400">Career@jubilo.com</p>
+              <p className="text-gray-400">admin@jubilo.com</p>
             </div>
           </div>
           {/* <div className="w-full md:w-auto space-y-2 mb-4 md:mb-0">
@@ -85,7 +90,7 @@ const Footer = () => {
         <div className="flex justify-center border-b border-[#183968] px-10 text-gray-300 pt-2">
           <div>
             <p className="text-gray-300 md:pl-4 ">
-              Wishlayer 2025 |&copy; All rights reserved 
+              Jubilo 2025 |&copy; All rights reserved 
             </p>
             <p className="text-gray-300 text-sm  md:text-xl">
               Designed and Developed By{" "}
